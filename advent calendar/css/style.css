@@ -1,58 +1,68 @@
 body{
   background-image: url("saltdean christmas.jpg");
-  height: 640px;
-  width: 360px;
+  height: 640mm;
+  width: 360mm;
   }
 h1{
   font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  font-family:garamond;
+  padding: 5mm;
+}
+h2{
   font-size: 50px;
   text-align: center;
   color: white;
   font-family:garamond;
+  padding: 5mm;
+  background-color: rgba(11,94,21,0.7);
+  border-radius: 50px;
 }
 .frame{
 display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
-  height: 640px;
-  width: 360px;
-  margin: 30px;
+  height:750mm;
+  width: 360mm;
+  margin: 5mm;
 }
 container{
-  padding: 30px;
-  margin: 10px;
+  padding: 5mm;
+  margin: 5mm;
   display: flex;
   align-items: center;
   outline-width: medium;
   font-family: garamond;
-  font-size: 30px;
-  width: 70px;
+  font-size: 90px;
+  font-weight: bold;
+  width: 68mm;
   align-items: stretch;
-
 }
 .door1{
-  background-color: black;
-  color:white;
-  height:25px;
+  background-color: rgba(255,255,255,0.9);
+  color:black;
+  height:100mm;
 }
 .door2{
-  background-color: red;
+  background-color: rgba(123,2,2,0.9);
   color: white;
-  height:30px;
+  height:110mm;
 }
 .door3{
-  background-color: green;
+  background-color: rgba(48,133,5,0.9);
   color: white;
-  height:50px;
+  height:100mm;
 }
 .door4{
-  background-color: red;
+  background-color: rgba(212,22,22,0.9);
   color: white;
-  height:20px;
+  height:70mm;
 }
 .door5{
-  background-color: green;
+  background-color: rgba(23,51,5,0.9);
   color: white;
-  height:40px;
+  height:60mm;
 }
