@@ -1,0 +1,58 @@
+body{
+  background-image: url("saltdean christmas.jpg");
+  height: 640px;
+  width: 360px;
+  }
+h1{
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family:garamond;
+}
+.frame{
+display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height: 640px;
+  width: 360px;
+  margin: 30px;
+}
+container{
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  outline-width: medium;
+  font-family: garamond;
+  font-size: 30px;
+  width: 70px;
+  align-items: stretch;
+
+}
+.door1{
+  background-color: black;
+  color:white;
+  height:25px;
+}
+.door2{
+  background-color: red;
+  color: white;
+  height:30px;
+}
+.door3{
+  background-color: green;
+  color: white;
+  height:50px;
+}
+.door4{
+  background-color: red;
+  color: white;
+  height:20px;
+}
+.door5{
+  background-color: green;
+  color: white;
+  height:40px;
+}
