@@ -8,6 +8,8 @@ $(document).ready(function(){
       alert ("No peeking!");
     } else {
       alert (messageList[doornum-1]);
+      popUp();
+      $(this).fadeTo(2000, 0);
     }
    }
 
@@ -17,8 +19,6 @@ $(document).ready(function(){
 
   $("#d1").click(function() {
     checkPermission(1);
-    popUp();
-    $(this).fadeTo(2000, 0);
   });
 
   $("#d2").click(function() {
