@@ -50,7 +50,9 @@ position: absolute;
     outline-width: medium;
     width: 68mm;
     align-items: stretch;
+    /*
     z-index: -1;
+    */
   }
 
 container{
