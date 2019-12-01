@@ -10,14 +10,14 @@ $(document).ready(function(){
 
    function checkPermission(doornum) {
      date = new Date().getDate();
-     if (date < doornum) {
+    /* if (date < doornum) {
        alert ("No peeking!");
-     } else {
+     } else { */
          var index = doornum -1
        alert (messageList[index]);
          popUp(index);
          $(doorList[index]).fadeTo(2000, 0);
-     }
+     /*}*/
     }
 
    function popUp(doornum) {
