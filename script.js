@@ -23,8 +23,6 @@ $(document).ready(function(){
 
   $("#d2").click(function() {
     checkPermission(2);
-      popUp();
-    $(this).fadeTo(2000, 0);
   });
 
   $("#d3").click(function() {
