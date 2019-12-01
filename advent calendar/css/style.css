@@ -21,6 +21,7 @@ h2{
   border-radius: 50px;
 }
 .frame{
+position: absolute;
 display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -29,6 +30,28 @@ display: flex;
   width: 360mm;
   margin: 5mm;
 }
+
+.hiddenframe{
+position: absolute;
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height:750mm;
+    width: 360mm;
+    margin: 5mm;
+  }
+
+  .hidden{
+    padding: 5mm;
+    margin: 5mm;
+    display: flex;
+    align-items: center;
+    outline-width: medium;
+    width: 68mm;
+    align-items: stretch;
+  }
+
 container{
   padding: 5mm;
   margin: 5mm;
@@ -42,27 +65,27 @@ container{
   align-items: stretch;
 }
 .door1{
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255,255,255,1);
   color:black;
   height:100mm;
 }
 .door2{
-  background-color: rgba(123,2,2,0.9);
+  background-color: rgba(123,2,2,1);
   color: white;
   height:110mm;
 }
 .door3{
-  background-color: rgba(48,133,5,0.9);
+  background-color: rgba(48,133,5,1);
   color: white;
   height:100mm;
 }
 .door4{
-  background-color: rgba(212,22,22,0.9);
+  background-color: rgba(212,22,22,1);
   color: white;
   height:70mm;
 }
 .door5{
-  background-color: rgba(23,51,5,0.9);
+  background-color: rgba(23,51,5,1);
   color: white;
   height:60mm;
 }

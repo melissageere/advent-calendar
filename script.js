@@ -6,7 +6,6 @@ $(document).ready(function(){
     date = new Date().getDate();
     if (date < doornum) {
       alert ("No peeking!");
-      location.reload(true);
     } else {
       alert (messageList[doornum-1]);
       popUp();
