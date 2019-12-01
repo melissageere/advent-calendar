@@ -44,12 +44,13 @@ position: absolute;
 
   .hidden{
     padding: 5mm;
-    margin: 5mm;
+    margin: 5mm 5mm 15mm 5mm;
     display: flex;
     align-items: center;
     outline-width: medium;
     width: 68mm;
     align-items: stretch;
+    z-index: -1;
   }
 
 container{
@@ -88,4 +89,20 @@ container{
   background-color: rgba(23,51,5,1);
   color: white;
   height:60mm;
+}
+
+#p6{
+  margin-bottom: 10mm;
+}
+
+#p12{
+  margin-top: 20mm;
+}
+
+#p21{
+  margin-top: 0mm;
+}
+
+#p23{
+  margin-top: 12mm;
 }
