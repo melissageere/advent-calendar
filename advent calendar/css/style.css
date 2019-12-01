@@ -44,7 +44,7 @@ position: absolute;
 
   .hidden{
     padding: 5mm;
-    margin: 5mm 5mm 10mm 5mm;
+    margin: 5mm 5mm 15mm 5mm;
     display: flex;
     align-items: center;
     outline-width: medium;
@@ -90,7 +90,7 @@ container{
   color: white;
   height:60mm;
 }
-/*
+
 #p6{
   margin-bottom: 10mm;
 }
@@ -106,7 +106,7 @@ container{
 #p23{
   margin-top: 12mm;
 }
-*/
+
 /*
     ColorBox Core Style:
     The following CSS is consistent between example themes and should not be altered.
